@@ -1,0 +1,201 @@
+html,body {
+    margin: 0;
+    height:100%;
+    width:100%;
+    background: #ffeecc ;
+}
+
+.header {
+    background : #802900 ;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 250%;
+}
+
+div#logout {
+    float:right;
+    height: 30px;
+    margin : 0px 50px 0px 0px;
+}
+
+input.logout_button  {
+    text-decoration: none;
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 4px 10px 10px 10px;
+    cursor: pointer;
+    text-align: center;
+    color: #802900;
+    border: 1px solid #802900;
+    outline: none;
+    background-color:white;
+}
+
+
+input.logout_button:hover {
+    color :white;
+    background-color: #802900 ;
+}
+
+div#tabs {
+    margin: 60px 50px 0 50px;
+    height: 500px;
+    min-width:500px;
+    }
+
+div#tabs ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 22px;
+}
+
+div#tabs ul li {
+    float:left;
+    height: 17px;
+    padding: 4px 10px 0 10px;
+    margin-right: 5px;
+    border: 1px solid #802900;
+    border-bottom: 1px solid #802900;
+    position: relative;
+    background: #802900;
+}
+
+div#tabs ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+div#tabs ul li.ui-tabs-selected {
+    background: black;
+}
+div#tabs ul li.ui-tabs-selected a {
+    color: white;
+}
+
+div.tabs {
+    height: 100%;
+    border: 1px solid black;
+    padding: 5px;
+    clear:right;
+}
+
+.ui-tabs-hide {
+    display: none;
+}
+
+
+div#tabs table {
+    width:100%;
+    height:100%;
+    text-align:left;
+    font-size:14px;
+}
+
+div.tabs input{
+    background-color: white;
+    font-size : 12px;
+    border: 1px solid #802900;
+    border-radius: 3px;
+    color:black;
+}
+
+div.tabs select,textarea{
+    font-size: 12px;
+    border: 1px solid #802900;
+    color: black;
+    border-radius: 3px;
+    background-color: white;
+}
+
+div.tabs .button {
+	margin: 20px 25px 0 auto;
+	font-size: 14px;
+	font-weight: normal;
+	border-radius: 8px;
+	padding: 5px 10px;
+  	cursor: pointer;
+  	text-align: center;
+  	outline:none;
+  	color: #802900;
+  	border: 1px solid #802900
+	}
+
+div.tabs .button:hover {
+	color :white;
+	background-color: #802900 ;
+}
+
+div.tabs .button: {
+	color :white;
+	background-color: #802900 ;
+}
+
+div#tabs-1 {
+    background: #ffe6cc;
+}
+
+div#tabs-2 {
+    background: #e6ffe6;
+}
+
+div#tabs-3 {
+    background: #ccffff;
+}
+
+div.image_upload {
+    vertical-align:middle;
+}
+
+input#new_reset , input#delete_reset, input#edit_reset {
+    float:left;
+}
+
+form#edit_form, form#delete_form {
+    margin:10px; 
+}
+
+table#delete_record{
+    margin:0px auto;
+    border: 1px solid #802900;
+}
+
+table#delete_record input,textarea#description,textarea#features {
+        background: #D8D8D8;
+}
+
+div#submit_reset_delete, div#submit_reset_edit, div#submit_reset_new  {
+    margin:0px auto;
+    width:300px;
+    padding-left:70px;
+    padding-bottom:10px;
+}
+
+#confirm_record {
+  border : 1px solid #802900;
+}
+
+#confirm_record tr{
+  background-color: #ffffe6;
+}
+
+#confirm_record th {
+  background-color: #d4a377;
+  text-align: center;
+}
+
+#confirm_record td {
+  background-color: #ffffe6;
+}
+
+
+
+
+
+}
+

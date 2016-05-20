@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<title>Furniture In</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+
+<script type="text/javascript" src="/jquery/jquery.js"></script>
+<script type="text/javascript" src="/jquery/jQueryUI.js"></script>
+<script type="text/javascript" src="/jadrn022/javascripts/helper.js"></script>
+<script type="text/javascript" src="/jadrn022/javascripts/proj3.js"></script>
+<link rel="stylesheet" href="/jadrn022/css/proj3.css">
+
+	<!--    Patel, Humaira    Account:  jadrn022
+          CS645, Spring 2016
+          Project #3
+    -->
+</head>
+<body>
+	<div class="ui-widget">
+		<div class="ui-widget-header">
+			<img src="/jadrn022/images/logo.png" alt="logo" class="logo" />
+			<div id="counter">
+				<ul id="navigation">
+					<li><a  class="active" href="proj3.html">HOME</a></li>
+					<li><a href="about.html">ABOUT US</a></li>
+					<li><a href="contact.html">CONTACT US</a></li>
+					<li class="cart"><a id="myCart"> <img border="0"
+							src="/jadrn022/images/cart.png" style="width:35px; height:25px">
+								Your cart: <label id="count"></label></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="filters">
+			<form id="filters_form">
+				<ul>
+					<li><b>Brand</b><br />
+						<div id="vendor_filter"></div> <br /></li>
+					<li><b>Category</b><br />
+						<div id="category_filter"></div> <br /></li>
+					<li><b>Price</b>
+						<table>
+							<tbody>
+								<tr>
+									<td><label for="min_price">$</label></td>
+									<td><input type="text" id="min_price" name="min_price"
+										maxlength="7" size="7" /></td>
+									<td><label for="max_price">&nbsp;to&nbsp;$</label></td>
+									<td><input type="text" id="max_price" name="max_price"
+										maxlength="7" size="7" /></td>
+								</tr>
+							</tbody>
+						</table></li>
+					<li><input type="button" id="apply_filter"
+						value="Apply Filters" class="filter_button" /> <input
+						type="reset" id="clear_filter" value="Clear Filters"
+						class="filter_button" /></li>
+				</ul>
+			</form>
+		</div>
+
+		<div class="ui-widget-content" id="content"></div>
+		<div id="myModal" class="modal">
+			<!-- Modal content -->
+			<div class="modal-content">
+				<form id="detailed_view_form">
+					<span class="close">×</span><br /> <img id="productImage"
+						class="modal-img" src=""
+						style="border-width: 1px; padding-left: 0px; width: 250px; height: 300px">
+						<input type="hidden" id="prod_sku_detail" name="prod_sku_detail"
+						value="" />
+					<table>
+						<tr>
+							<th colspan="2" id="title_th"><h3>
+									<label id="title"></label>
+								</h3></th>
+						</tr>
+						<tr>
+							<th><label>Product No:</label></th>
+							<td><label id="manufacture_id_label"></label></td>
+						</tr>
+						<tr class="blank_row">
+							<td colspan="2"></td>
+						</tr>
+						<tr>
+							<th colspan="2"><label>Description:</label></th>
+						</tr>
+						<tr>
+							<td colspan="2"><label id="description_label"></label><br />
+								<br /></td>
+						</tr>
+						<tr>
+							<th colspan="2"><label>Features:</label></th>
+						</tr>
+						<tr>
+							<td colspan="2"><label id="features_label"></label><br /> <br /></td>
+						</tr>
+						<tr>
+							<th><label>Price:&nbsp;&nbsp;$</label></th>
+							<td><label id="retail_label"></label></td>
+						</tr>
+						<tr class="blank_row">
+							<td colspan="2"></td>
+						</tr>
+						<tr>
+							<th><label>Status:</label></th>
+							<td><label id="stock_status_label"></label></td>
+						</tr>
+						<tr class="blank_row">
+							<td colspan="2"></td>
+						</tr>
+						<tr>
+							<th><label id="quantity_label">Quantity:</label></th>
+							<td><input type="number" name="quantity" id="quantity"
+								size="5" value="1" hidden="true" /></td>
+						</tr>
+						<tr class="blank_row">
+							<td colspan="2"></td>
+						</tr>
+						<tr class="blank_row">
+							<td colspan="2"></td>
+						</tr>
+						<tr class="blank_row">
+							<td colspan="2"></td>
+						</tr>
+						<tr>
+							<td colspan="2" id="button_td"><input type="button"
+								id="add_to_cart" value="Add To Cart" class="button"
+								hidden="true" /></td>
+						</tr>
+					</table>
+				</form>
+			</div>
+		</div>
+
+	</div>
+
+
+</body>
+</html>

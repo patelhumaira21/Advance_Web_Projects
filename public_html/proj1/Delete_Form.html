@@ -1,0 +1,45 @@
+<form id="delete_form">
+    <label for="delete_sku">
+        <bold>Enter the SKU to delete:</bold>
+    </label>
+    <input type="text" id="delete_sku" name="sku" size="20" autofocus/>
+    <input type="button" id="delete_button" value="Get Record" class="button"/> <br/>
+</form>
+<div id="delete_confirm" hidden="true">
+    <h4><label id="delete_status"></label></h4>
+     <table id = "delete_record">
+    	<tr>
+            <th><label for="sku_label">SKU: </label></th>
+            <td><label id="sku_label"></label></td>
+            <th><label for="category">Category: </label></th>
+            <td><label id="category"></label></td>
+        </tr>
+        <tr>
+            <th><label for="vendor">Vendor:</label></th>
+            <td><label id="vendor"></label></td>
+            <th><label for="manufacture_id">Manufacturer's Identifier:</label></th>
+            <td><label id="manufacture_id"></label></td>
+        </tr>
+        <tr>
+            <th><label for="description">Description:</label></th>
+            <td><label id="description"></label></td>
+            <th><label for="features">Features:</label></th>
+            <td><label id="features"></label></td>
+        </tr>
+        <tr>
+            <th><label for="cost">Cost:&nbsp;&nbsp;$</label></th>
+            <td><label id="cost"></label></td>
+            <th><label for="retail">Retail:&nbsp;&nbsp;$</label></th>
+            <td><label id="retail"></label></td>
+        </tr>
+        <tr>
+            <th><label for="product_image">Product Image:</label></th>
+            <td><img src= "" alt="" width=170 height=170 id="product_image" class="image"/></td>
+        </tr>
+    </table>
+    <div id="submit_reset_delete">
+	    <input type=button id="delete_submit" value="Delete Record" class="button"/>
+	    <input type=reset id="delete_reset" value="Cancel" class="button"/>
+    </div>
+    <center><input type=button id="delete_another" value="Delete Another Record" class="button"/></center>
+</div>

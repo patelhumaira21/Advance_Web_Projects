@@ -1,0 +1,63 @@
+<div id="edit_confirmation_page" hidden="true">
+    <h4><label id="confirm_status">The following record has been edited successfully :</label></h4>
+
+    <div id="edit_confirm_data"></div>
+    <div>
+        <center>
+            <input type=button id="go_to_edit" value="Edit another record" class="button"/>
+        </center>
+    </div>
+</div>
+<div id ="edit_page">
+<label for="edit_sku">
+    <bold>Enter the SKU to edit:</bold>
+</label>
+<input type="text" id="edit_sku" name="sku" size="20" autofocus/>
+<input type="button" id="edit_button" value="Get Record" class="button"/> <br/>
+<form id="edit_form" hidden="true">
+    <table id="edit_record">
+        <tr>
+            <td><label>SKU: </label>
+            <input type="text" name="sku" id="edit_sku_hidden" size="20" hidden="true"/></td>
+            <td><label id="edit_sku_label"></label></td>
+            <td><label for="edit_category_list">Category:</label></td>
+            <td>
+                <select id="edit_category_list">
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="edit_vendor_list">Vendor:</label></td>
+            <td>
+                <select id="edit_vendor_list">
+                </select>
+            </td>
+            <td><label for="edit_manufacture_id">Manufacturer's Identifier:</label>
+            <td><input type="text" name="edit_manufacture_id" id="edit_manufacture_id" size="30"/></td>
+        </tr>
+        <tr>
+            <td><label for="edit_description">Description:</label></td>
+            <td><textarea name="edit_description" id="edit_description" rows="7" cols="40"></textarea></td>
+            <td><label for="edit_features">Features:</label></td>
+            <td><textarea name="edit_features" id="edit_features" rows="7" cols="40"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="edit_cost">Cost:&nbsp;&nbsp;$</label></td>
+            <td><input type="number" name="edit_cost" id="edit_cost" size="30" step=".01"/></td>
+            <td><label for="edit_retail">Retail:&nbsp;&nbsp;$</label></td>
+            <td><input type="number" name="edit_retail" id="edit_retail" size="30" step=".01"/></td>
+        </tr>
+        <tr>
+            <td><label for="edit_product_img">Product Image:</label></td>
+            <div class="image_upload">
+            <td><input type="file" name="product_img" id="edit_product_img"/></td>
+        </div>
+            <td><img src= "" alt="" width=170 height=170 id="edit_img" class="image"/></td>
+        </tr>
+    </table>
+    <div id="submit_reset_edit">
+           <input type=button id="edit_submit" value="Edit Record" class="button"/>
+           <input type=reset id="edit_reset" value="Cancel" class="button"/>
+    </div>
+</form>
+</div>

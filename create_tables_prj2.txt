@@ -1,0 +1,25 @@
+use jadrn022;
+
+drop table if exists merchandise_in;
+drop table if exists merchandise_out;
+drop table if exists on_hand;
+
+create table merchandise_in(
+    sku         char(7)     NOT NULL,
+    date        date        NOT NULL,
+    quantity    int         NOT NULL);
+
+create table merchandise_out(
+    sku         char(7)     NOT NULL,
+    date        date        NOT NULL,
+    quantity    int         NOT NULL);
+
+create table on_hand(
+    sku                     char(7)     NOT NULL,
+    last_date_modified      date        NOT NULL,
+    on_hand_quantity        int         NOT NULL,
+    primary key(sku));
+
+
+
+

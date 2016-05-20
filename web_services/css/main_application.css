@@ -1,0 +1,155 @@
+html,body {
+    margin: 0;
+    height:100%;
+    width:100%;
+    background: #ffeecc ;
+}
+
+.Proj_Heading {
+	text-align: center;
+	color : #ffeecc ;
+    background:#802900;
+	font-size: 150%;
+}
+
+.center { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  	}
+
+h1, h2, h3 { 
+	text-align: center; 
+   }
+
+.header {
+    background : #802900 ;
+}
+
+h2 {
+    text-align: center;
+    color: #802900;
+    font-size: 250%;
+}
+h3 {
+	color: #802900;	
+}
+
+div#logout {
+    margin : 0px 60px 0px 0px;
+    float:right;
+}
+
+div#sku_details{
+   width:50%;
+   margin: auto;
+   text-align: center;
+   border: 1px solid #802900;
+}
+
+input.logout_button  {
+    text-decoration: none;
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 4px 10px 10px 10px;
+    cursor: pointer;
+    text-align: center;
+    color: #802900;
+    border: 1px solid #802900;
+    outline: none;
+    background-color:white;
+}
+
+
+input.logout_button:hover {
+    color :white;
+    background-color: #802900 ;
+}
+
+#merchandise_form {
+    padding-left: 60px;
+}
+
+.product_table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:left;
+    font-size:14px;
+    border: 1px solid #802900;
+    padding-bottom: 10px;
+}
+
+th, td {
+    height: 30px;
+    vertical-align: center;
+    padding-left:10px;
+}
+
+.image {
+  border: 1px solid ;     
+}
+
+.product{
+    color : #802900;
+    background-color:  #ccffff ; 
+    
+}
+
+ input{
+    background-color: white;
+    font-size : 12px;
+    border: 1px solid #802900;
+    border-radius: 3px;
+    color:black;
+}
+
+ .button {
+	margin: 20px 25px 0 auto;
+	font-size: 14px;
+	font-weight: normal;
+	border-radius: 8px;
+	padding: 5px 10px;
+  	cursor: pointer;
+  	text-align: center;
+  	outline:none;
+  	color: #802900;
+  	border: 1px solid #802900;
+	}
+
+ .button:hover {
+	color :white;
+	background-color: #802900 ;
+}
+
+ .button: {
+	color : white;
+	background-color : #802900 ;
+}
+
+#confirm_record {
+  width : 80%;
+  margin : auto;
+  border : 1px solid #802900;
+  padding-bottom : 5px;
+}
+
+#confirm_record tr{
+  background-color: #ffffe6;
+}
+
+#confirm_record th {
+  background-color: #802900;
+  text-align: center;
+  color:#ffeecc;
+}
+
+#confirm_record td {
+  background-color: #ffffe6;
+   color: #802900;
+
+}
+

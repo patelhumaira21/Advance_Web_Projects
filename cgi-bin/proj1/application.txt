@@ -1,0 +1,22 @@
+    <div class="header">
+          <h2>Furniture In</h2>
+        </div>
+        <div id="logout">
+                 <input type=button id="logout_button" value="Logout" class="logout_button"/>
+        </div>
+        <div id="tabs">
+            <ul id="tab_links">
+                <li><a href="#tabs-1"><span>New Record</span></a></li>
+                <li><a href="#tabs-2"><span>Edit Record</span></a></li>
+                <li><a href="#tabs-3"><span>Delete Record</span></a></li>
+            </ul>
+
+            <div id="tabs-1" class="tabs">
+            </div>
+
+            <div id="tabs-2" class="tabs">
+            </div>
+
+            <div id="tabs-3" class="tabs">
+            </div>
+        </div>

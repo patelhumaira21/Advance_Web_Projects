@@ -1,0 +1,11 @@
+use jadrn022;
+
+insert into product values('FFO-123',
+4,
+3,
+'BT-1404-GG',
+'Black Leather Guest/Reception Chair with Black Frame Finish',
+'Thickly padded seat and back,Contoured Cushions,Padded arms',
+53.09,
+77.49,
+'FF0-123.jpg');

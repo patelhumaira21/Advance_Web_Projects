@@ -1,0 +1,8 @@
+use jadrn022;
+
+insert into vendor values(NULL,'Alera');
+insert into vendor values(NULL,'BestOffice');
+insert into vendor values(NULL,'Flash Furniture');
+insert into vendor values(NULL,'Office Star');
+insert into vendor values(NULL,'Comfort Products');
+insert into vendor values(NULL,'Giantex');

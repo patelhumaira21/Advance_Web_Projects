@@ -1,0 +1,81 @@
+.Proj_Heading {
+	text-align: center;
+	color : #802900;
+	letter-spacing: 3px;
+	font-size: 200%;
+}
+
+.center { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  	}
+
+h1, h2, h3 { 
+	text-align: center; 
+   }
+   
+
+.data {
+	display: inline-table;
+	padding : 5px;
+	border:	1px solid black;
+   	}   
+
+ table {
+ 	display: inline-table;
+	padding : 5px;
+	margin-right: 22px;
+ 	}
+
+	
+input {
+	font-size: 110%;
+	background-color: white;
+    color: black;
+	}
+
+td, th{
+	font-size: 110%;
+	color:#802900;
+}
+	
+.button {
+	margin: 20px 25px 0 auto;
+	}
+
+	
+
+td .button {
+	float: right;
+	font-size: 14px;
+	font-weight: normal;
+	border-radius: 8px;
+	padding: 5px 10px;
+  	cursor: pointer;
+  	text-align: center;	
+  	outline: none;
+  	color: #802900;
+  	border: 1px solid #802900;
+	}
+
+td .button:hover {
+	color :white;
+	background-color: #802900 ;
+}
+
+td.button:active {
+	color :white;
+  	background-color: #802900 ;
+  	border :none;
+}
+
+#status {
+	color: red;
+	font-weight: bold;
+	}
+
+.image {
+border : 1px solid #802900;
+}

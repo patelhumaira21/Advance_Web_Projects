@@ -1,0 +1,8 @@
+use jadrn022;
+
+insert into category values(NULL,'Desk Chairs');
+insert into category values(NULL,'Executive Chairs');
+insert into category values(NULL,'Task Chairs');
+insert into category values(NULL,'Reception Chairs');
+insert into category values(NULL,'Drafting Chairs');
+insert into category values(NULL,'Stacking Chairs');

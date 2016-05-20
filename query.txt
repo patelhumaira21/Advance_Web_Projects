@@ -1,0 +1,7 @@
+  use jadrn022;
+  
+  SELECT sku, category.name as category, vendor.name as vendor,
+    manufactureID,description, features, cost, retail, image
+    FROM product, category, vendor WHERE product.catID = category.id
+    AND product.venID = vendor.id
+    AND sku='ARC-018';

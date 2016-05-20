@@ -1,0 +1,105 @@
+body {
+	background-color: rgb(218, 218, 218);
+}
+
+.errormessage {
+	color: red;
+	font-style: italic;
+	font-size: 14px;;
+}
+
+.ship {
+	text-align: center;
+}
+
+#ship_table {
+	background-color: white;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 10px 10px 5px #888888;
+	border: 1px solid #000000;
+}
+
+#ship_table th {
+	width: 30%;
+	padding: 10px;
+}
+
+#ship_table td {
+	width: 50%;
+	padding: 10px;
+}
+
+.bill_details {
+	padding: 30px;
+	text-align: center;
+}
+
+.bill {
+	text-align: center;
+	padding-top: 40px;
+}
+
+#bill_table {
+	background-color: white;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 10px 10px 5px #888888;
+	border: 1px solid #000000;
+}
+
+#bill_table th {
+	width: 30%;
+	padding: 10px;
+}
+
+#bill_table td {
+	width: 50%;
+	padding: 10px;
+}
+
+.payment {
+	padding: 30px;
+}
+
+#payment_table {
+	background-color: white;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 10px 10px 5px #888888;
+	border: 1px solid #000000;
+}
+
+#payment_table th {
+	width: 40%;
+	padding: 10px;
+}
+
+#payment_table td {
+	padding: 10px;
+}
+
+.credit_card {
+	vertical-align: middle;
+}
+
+.check_out_now {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 20px;
+	background-color: #000000;
+	border: 2px solid #000000;
+	color: white;
+}
+
+.back_to_cart {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 20px;
+	background-color: #FFFFFF;
+	border: 2px solid #000000;
+	color: black;
+}

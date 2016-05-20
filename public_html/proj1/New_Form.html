@@ -1,0 +1,56 @@
+<div id="new_confirmation_page" hidden="true">
+    <h4><label id="confirm_status">The following record has been added successfully :</label></h4>
+    <div id="new_confirm_data"></div>
+    <div>
+        <center>
+            <input type=button id="go_to_new" value="Add another record" class="button"/>
+        </center>
+    </div>
+</div>
+<div id ="new_page">
+    <form id="new_form" method="post" enctype="multipart/form-data" action="">
+        You can enter a new record here. <br/>
+        <table id="new_record">
+            <tr>
+                <td><label for="new_sku">SKU: </label></td>
+                <td><input type="text" name="sku" id="new_sku" size="20" autofocus/></td>
+                <td><label for="new_category_list">Category:</label></td>
+                <td>
+                    <select id="new_category_list" name="new_category_list">
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label for="new_vendor_list">Vendor:</label></td>
+                <td>
+                    <select id="new_vendor_list" name="new_vendor_list">
+                    </select></td>
+                <td><label for="new_manufacture_id">Manufacturer's Identifier:</label>
+                <td><input type="text" name="new_manufacture_id" id="new_manufacture_id" size="30"/></td>
+            </tr>
+            <tr>
+                <td><label for="new_description">Description:</label></td>
+                <td><textarea name="new_description" id="new_description" rows="7" cols="40"></textarea></td>
+                <td><label for="new_features">Features:</label></td>
+                <td><textarea name="new_features" id="new_features" rows="7" cols="40"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="new_cost">Cost:&nbsp;&nbsp;$</label></td>
+                <td><input type="number" name="new_cost" id="new_cost" size="30" step=".01"/></td>
+                <td><label for="new_retail">Retail:&nbsp;&nbsp;$</label></td>
+                <td><input type="number" name="new_retail" id="new_retail" size="30" step=".01"/></td>
+            </tr>
+            <tr>
+                <td><label for="new_product_img">Product Image:</label></td>
+                <div class="image_upload">
+                    <td><input type="file" name="product_img" id="new_product_img" class="image"/></td>
+                </div>
+            <td colspan=2></td>
+            </tr>
+        </table>
+            <div id="submit_reset_new">
+                <input type=button id="new_submit" value="Submit" class="button"/>
+                <input type=reset id="new_reset" value="Reset" class="button"/>
+            </div>
+    </form>
+</div>
+
